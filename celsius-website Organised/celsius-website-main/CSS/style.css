@@ -1,0 +1,175 @@
+html,
+body {
+  background-color: #e6ecec;
+  margin: 0; /* make footer extend full width of page */
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #f0f0f3;
+  color: black;
+}
+
+footer {
+  background-color: #f0f0f3;
+  color: black;
+}
+
+button {
+  font-weight: bold;
+  width: 50%;
+  background-color: #3f2eaf;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+table {
+  width: 50%;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Subject {
+  text-align: center;
+}
+
+.navbar {
+  display: flex; /* Use Flexbox to arrange items in a row */
+  align-items: center;
+  justify-content: space-around; /* Push all links to the right side */
+  background: #f0f0f3;
+}
+.navbar a {
+  color: black;
+  text-decoration: none; /* No underline */
+  font-weight: bold; /* Bold text */
+  padding: 2.6%;
+}
+
+.navbar a:hover {
+  text-decoration: underline; /* Underline when mouse is on it */
+  color: #f5f5f5;
+  background-color: #fc8403;
+}
+
+footer {
+  display: flex; /* Use Flexbox to arrange items in a row */
+  align-items: center;
+  justify-content: space-around; /* Push all links to the right side */
+  background: #f0f0f3;
+  color: #2e5eaf;
+}
+
+section {
+  color: black;
+}
+
+.hero-text h1 {
+  background-color: #2eaf7f;
+  display: inline-block;
+}
+
+.hero-text p {
+  background-color: #2eaf7f;
+  display: inline-block;
+}
+
+.hero-text ul {
+  background-color: #2eaf7f;
+  display: inline-block;
+}
+
+.hero-image {
+  background-image: url(Celsius\ Excersise.png);
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: 30% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.flex-container {
+  display: flex;
+  align-items: flex-start; /* Align image + text vertically */
+  gap: 5rem; /* Space between items */
+  margin: 5rem 5rem;
+}
+.flex-container img {
+  width: 40%;
+  border-radius: 20px;
+  box-shadow: 10px 12px 20px rgba(0, 0, 0, 0.5); /* More obvious shadow */
+}
+
+.flex-text p {
+  margin: 3rem 0; /* Space below heading */
+  text-align: center; /* Justify text for better appearance */
+  max-width: 100%;
+}
+
+.flex-container button {
+  width: 100%;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+.gradient-gray
+{
+  background: linear-gradient(to right, #f0f0f3, #444444);
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+/*=========================
+ CARD DESIGN
+ ========================*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: rgb(181, 244, 255);
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
